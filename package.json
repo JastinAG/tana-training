@@ -1,0 +1,18 @@
+{
+  "name": "reqres-api-tests",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.57.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "faker": "^6.6.6"
+  }
+}
