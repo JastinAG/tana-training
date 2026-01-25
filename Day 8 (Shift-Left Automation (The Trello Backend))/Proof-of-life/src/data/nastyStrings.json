@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Emoji Test",
+    "value": "🎉 Test Card 🚀 with emojis 💻 🔥"
+  },
+  {
+    "name": "RTL Arabic",
+    "value": "بطاقة اختبار بالعربية"
+  },
+  {
+    "name": "RTL Hebrew",
+    "value": "כרטיס בדיקה בעברית"
+  },
+  {
+    "name": "SQL Injection - Basic",
+    "value": "'; DROP TABLE cards; --"
+  },
+  {
+    "name": "SQL Injection - Union",
+    "value": "' UNION SELECT * FROM users --"
+  },
+  {
+    "name": "HTML Tags - Script",
+    "value": "<script>alert('XSS')</script>"
+  },
+  {
+    "name": "HTML Tags - Image",
+    "value": "<img src=x onerror=alert('XSS')>"
+  },
+  {
+    "name": "HTML Tags - Iframe",
+    "value": "<iframe src='javascript:alert(1)'></iframe>"
+  },
+  {
+    "name": "Special Characters",
+    "value": "!@#$%^&*()_+-=[]{}|;':\",./<>?"
+  },
+  {
+    "name": "Unicode - Chinese",
+    "value": "测试卡片中文"
+  },
+  {
+    "name": "Unicode - Japanese",
+    "value": "テストカード日本語"
+  },
+  {
+    "name": "Unicode - Russian",
+    "value": "Тестовая карточка на русском"
+  },
+  {
+    "name": "Newlines and Tabs",
+    "value": "Line 1\nLine 2\tTabbed\tText"
+  },
+  {
+    "name": "Zero Width Characters",
+    "value": "Test\u200B\u200C\u200D\uFEFFCard"
+  },
+  {
+    "name": "Max Characters (1000)",
+    "value": "MAX_CHARS_PLACEHOLDER"
+  },
+  {
+    "name": "Empty String",
+    "value": ""
+  },
+  {
+    "name": "Only Spaces",
+    "value": "   "
+  },
+  {
+    "name": "Leading/Trailing Spaces",
+    "value": "   Test Card   "
+  },
+  {
+    "name": "Control Characters",
+    "value": "Test\u0000\u0001\u0002Card"
+  },
+  {
+    "name": "Mixed Scripts",
+    "value": "Test 测试 тест עברית العربية 🎉 <script>alert(1)</script>"
+  }
+]

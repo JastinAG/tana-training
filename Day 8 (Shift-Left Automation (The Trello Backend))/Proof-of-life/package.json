@@ -1,0 +1,31 @@
+{
+  "name": "00-proof-of-life",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "proof-of-life": "ts-node src/scripts/log-trello-username.ts",
+    "create-board": "tsx src/scripts/create-test-board.ts",
+    "create-lifecycle": "tsx src/scripts/create-full-lifecycle.ts",
+    "test": "playwright test",
+    "test:lifecycle": "playwright test tests/full-lifecycle.spec.ts",
+    "test:hybrid": "playwright test tests/hybrid-api-ui.spec.ts",
+    "test:nasty": "playwright test tests/nasty-strings-validation.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.10",
+    "@types/node-fetch": "^2.6.11",
+    "node-fetch": "^2.7.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.3"
+  }
+}
